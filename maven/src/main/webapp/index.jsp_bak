@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+//response.sendRedirect("index.do"); //클라이언트를 거치치 않고 바로 이전페이지에서 index.do로 감
+%>
+<script>
+location.href="index.do"; //index.jsp를 거쳐서 index.do로 감 (sendRedirect보다 하나를 더 거쳐가서 마케팅 링크 수집 통계에 사용하면 집계안됨)
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+webapp 諛묒뿉 index.jsp
+</body>
+</html>
