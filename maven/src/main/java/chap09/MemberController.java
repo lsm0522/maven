@@ -22,6 +22,7 @@ public class MemberController {
 	
 	@RequestMapping("/member/index.do")
 	public String index(Model model) {
+		System.out.println("이승민");
 		List<MemberVo> list = service.selectList();
 		model.addAttribute("list",list);
 		return "member/index";
